@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    background-color: #222;
+    overflow-x: hidden;
+}
+
+#page1 {
+    height: 100vh;
+    width: 100vw;
+
+    background-color: #C4BCB3;
+    position: relative;
+}
+#nav{
+    height: 100px;
+ 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 30px;
+    border-bottom: .5px solid black;
+}
+#nav img{
+    height: 25px;
+    width: 30%;
+}
+#nav h5{
+    font-size: 20px;
+    font-weight: 100;
+    width: 30%;
+}
+#nav i{
+    font-size: 20px;
+    width: 30%;
+    text-align: right;
+    cursor: pointer;
+}
